@@ -35,10 +35,10 @@ const Footer = () => {
 
     // Social media links
     const socialLinks = [
-        { icon: <Facebook size={20} />, href: "https://facebook.com", label: "Facebook" },
+        { icon: <Facebook size={20} />, href: "https://www.facebook.com/bhattarai.aarci.9", label: "Facebook" },
         { icon: <Twitter size={20} />, href: "https://twitter.com", label: "Twitter" },
-        { icon: <Instagram size={20} />, href: "https://instagram.com", label: "Instagram" },
-        { icon: <Github size={20} />, href: "https://github.com", label: "Github" }
+        { icon: <Instagram size={20} />, href: "https://Shre_esty_", label: "Instagram" },
+        { icon: <Github size={20} />, href: "https://github.com/Shhristii", label: "Github" }
     ]
 
     return (

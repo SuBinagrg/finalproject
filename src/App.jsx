@@ -10,6 +10,7 @@ import { Categories } from './pages/Categories'
 import { CourseDetail } from './pages/CourseDetail'
 import { CourseFormPage } from './pages/CourseFormPage'
 import { CategoryFormPage } from './pages/CategoryFormPage'
+import { Footer } from './components/Footer'
 
 // Loading component
 const LoadingSpinner = () => (
@@ -81,8 +82,11 @@ function App() {
           <Router>
             <div className="min-h-screen bg-gray-50">
               <Navbar />
+              
               <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/footer" element={<Footer />} />
+
                 <Route path="/auth" element={<Auth />} />
 
                 {/* All protected routes nested here */}
