@@ -10,7 +10,8 @@ import { Categories } from './pages/Categories'
 import { CourseDetail } from './pages/CourseDetail'
 import { CourseFormPage } from './pages/CourseFormPage'
 import { CategoryFormPage } from './pages/CategoryFormPage'
-import { Footer } from './components/Footer'
+import Footer from './components/Footer'
+
 
 // Loading component
 const LoadingSpinner = () => (
