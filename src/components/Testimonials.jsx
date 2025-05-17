@@ -6,7 +6,7 @@ const Testimonials = () => {
         {
             name: "Sarah Johnson",
             location: "New York",
-            image: "/api/placeholder/64/64",
+            image: "src='image.png'",
             content: "This platform transformed how I learn. The courses are engaging and the instructors are top-notch!",
             rating: 5
         },

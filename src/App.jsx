@@ -94,6 +94,9 @@ function App() {
                   <Route path="/categories" element={<Categories />} />
                   <Route path="/categories/new" element={<CategoryFormPage />} />
                   <Route path="/categories/edit/:id" element={<CategoryFormPage />} />
+                  
+
+
 
                 </Route>
               </Routes>
