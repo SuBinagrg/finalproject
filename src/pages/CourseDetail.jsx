@@ -10,7 +10,7 @@ export const CourseDetail = () => {
     if (courseLoading || categoriesLoading) {
         return (
             <div className="flex items-center justify-center min-h-screen">
-                <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+                <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-500"></div>
             </div>
         );
     }
@@ -22,7 +22,7 @@ export const CourseDetail = () => {
                 <p className="mt-2 text-gray-600">The course you're looking for doesn't exist or has been removed.</p>
                 <Link
                     to="/courses"
-                    className="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
+                    className="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                     Back to Courses
                 </Link>
@@ -51,7 +51,7 @@ export const CourseDetail = () => {
                         {category && (
                             <Link
                                 to={`/courses?category=${category._id}`}
-                                className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800 hover:bg-blue-200"
+                                className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800 hover:bg-indigo-200"
                             >
                                 {category.name}
                             </Link>

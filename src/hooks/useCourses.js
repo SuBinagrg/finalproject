@@ -17,7 +17,7 @@ export const useCourses = () => {
     queryFn: fetchCourses,
   });
 
-  console.log(data);
+
 
   const createCourse = useMutation({
     mutationFn: async (formData) => {

@@ -27,18 +27,18 @@ export const Navbar = () => {
                 <div className="flex justify-between h-16">
                     <div className="flex">
                         <Link to="/" className="flex items-center">
-                            <span className="text-2xl font-bold text-blue-600">EduLearn</span>
+                            <span className="text-2xl font-bold text-indigo-600">EduLearn</span>
                         </Link>
                         <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                             <Link
                                 to="/courses"
-                                className="inline-flex items-center px-1 pt-1 text-gray-500 hover:text-blue-600 transition-colors"
+                                className="inline-flex items-center px-1 pt-1 text-gray-500 hover:text-indigo-600 transition-colors"
                             >
                                 Courses
                             </Link>
                             <Link
                                 to="/categories"
-                                className="inline-flex items-center px-1 pt-1 text-gray-500 hover:text-blue-600 transition-colors"
+                                className="inline-flex items-center px-1 pt-1 text-gray-500 hover:text-indigo-600 transition-colors"
                             >
                                 Categories
                             </Link>
@@ -54,9 +54,9 @@ export const Navbar = () => {
                             <div className="relative" ref={dropdownRef}>
                                 <button
                                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                                    className="flex items-center space-x-2 text-gray-700 hover:text-blue-600 focus:outline-none"
+                                    className="flex items-center space-x-2 text-gray-700 hover:text-indigo-600 focus:outline-none"
                                 >
-                                    <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white">
+                                    <div className="w-8 h-8 rounded-full bg-indigo-600 flex items-center justify-center text-white">
                                         {userData.name ? userData.name[0].toUpperCase() : 'U'}
                                     </div>
                                     <span className="hidden md:block">{userData.name || 'User'}</span>
@@ -92,13 +92,13 @@ export const Navbar = () => {
                             <div className="flex space-x-4">
                                 <Link
                                     to="/auth"
-                                    className="px-4 py-2 rounded-md text-blue-600 hover:bg-blue-50 transition-colors"
+                                    className="px-4 py-2 rounded-md text-indigo-600 hover:bg-indigo-50 transition-colors"
                                 >
                                     Login
                                 </Link>
                                 <Link
                                     to="/auth"
-                                    className="px-4 py-2 rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors"
+                                    className="px-4 py-2 rounded-md text-white bg-indigo-600 hover:bg-indigo-700 transition-colors"
                                 >
                                     Register
                                 </Link>

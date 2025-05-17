@@ -30,7 +30,7 @@ export const useCategories = () => {
         queryKey: ['categories'],
         queryFn: fetchCategories,
     });
-    console.log(data);
+  
 
     const createCategory = useMutation({
         mutationFn: async (categoryData) => {

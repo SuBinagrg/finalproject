@@ -22,7 +22,7 @@ export const AuthProvider = ({ children }) => {
                 email,
                 password,
             });
-            console.log(response.data)
+           
             const { token, user } = response.data;
             localStorage.setItem('token', token);
             localStorage.setItem('userId', user._id);
