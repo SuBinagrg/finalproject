@@ -1,6 +1,6 @@
 import React from "react";
 import { Facebook, Twitter, Instagram, Github } from "lucide-react";
-import { Link } from "react-router-dom";
+import { href, Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -49,7 +49,7 @@ const Footer = () => {
       href: "https://instagram.com",
       label: "Instagram",
     },
-    { icon: <Github size={20} />, to: "https://github.com", label: "Github" },
+    { icon: <Github size={20} />,href: "https://github.com/SuBinagrg", label: "Github" },
   ];
 
   return (
